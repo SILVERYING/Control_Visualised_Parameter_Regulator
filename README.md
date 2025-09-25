@@ -5,6 +5,7 @@ JDK：Oracle OpenJDK 17（必须）
 JFreeChart 1.5.3（图表绘制）
 Apache Commons Math 3.6.1（FFT 计算）
 Gson 2.10.1（JSON 序列化 / 反序列化）
+
 常见错误信息及触发条件
 出错信息	触发条件
 Auto-tune failed: Not enough oscillation...	自动整定时振荡周期数不足
@@ -13,7 +14,8 @@ No data available for analysis	FFT 分析时曲线无数据
 Error saving file	保存文件失败（权限 / 路径 / 磁盘不足）
 Error loading or parsing file	读取文件失败或 JSON 格式错误
 Invalid input for 参数名	参数文本框输入非数字
-3.1 功能结构图
+
+功能结构图
 控制系统可视化参数调节器
 1. 仿真控制层（ControlVisualizer）
 启动仿真
